@@ -2,7 +2,7 @@
 
 **Official implementation of the method presented in our KDD 2025 paper:** 
 
-> **Diffusion-Scheduled Denoising Autoencoders for Anomaly Detection in Tabular Data** [Link]()
+> **Diffusion-Scheduled Denoising Autoencoders for Anomaly Detection in Tabular Data** [Link]() (appears soon)
 
 This repository provides reproducible implementation of the anomaly detection method based on a denoising autoencoder architecture with diffusion noise scheduling mechanism inspired by diffusion models.
 
@@ -20,7 +20,7 @@ Our method improves anomaly detection in tabular data by:
 4. **Analysis**: In-depth analysis of the scheduled noise addition process, examining its impact on anomaly detection erformance across multiple noise protocols.
 
 <p align="center">
-  <img src="docs/architecture_overview.png" width="700" alt="Method Overview"/>
+  <img src="notebook/architecture_overview.png" width="700" alt="Method Overview"/>
 </p>
 
 ---
@@ -41,6 +41,8 @@ Install dependencies:
 ```bash
 git clone https://github.com/sattarov/AnoDDAE.git
 cd AnoDDAE
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
