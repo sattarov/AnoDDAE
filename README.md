@@ -1,4 +1,4 @@
-# 🧨 Diffusion-Scheduled Denoising Autoencoders for Anomaly Detection
+# 🧨 Diffusion-Scheduled Denoising Autoencoders for Anomaly Detection (AnoDDAE)
 
 **Official implementation of the method presented in our KDD 2025 paper:** 
 
@@ -76,7 +76,7 @@ jupyter notebook notebooks/method_demo.ipynb
 ```bibtex
 @inproceedings{...,
   title={Diffusion-Scheduled Denoising Autoencoders for Anomaly Detection in Tabular Data},
-  author={Timur Sattarov, and Marco Schreyer, and Damian Borth},
+  author={Timur Sattarov, Marco Schreyer, and Damian Borth},
   booktitle={Proceedings of the 31 ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
   year={2025}
 }
